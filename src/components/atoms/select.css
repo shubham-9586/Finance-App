@@ -1,0 +1,57 @@
+.ant-select-selector {
+  min-height: 56px !important;
+  margin-top: 8px;
+  border: 1px solid var(--grey) !important;
+  border-radius: 8px !important;
+}
+
+.ant-select-selector :focus {
+  outline: none !important;
+}
+
+.ant-select-single .ant-select-selection-item {
+  padding: 12px !important;
+  font-size: 16px !important;
+}
+
+.ant-select-selection-item {
+  height: 40px !important;
+}
+
+.ant-select-selection-item-content {
+  padding-top: 8px !important;
+}
+
+.ant-select-selection-item-remove {
+  padding-top: 8px !important;
+}
+
+.ant-select-single .ant-select-selection-item-content {
+  padding-top: 8px;
+}
+
+.ant-select-arrow {
+  font-size: 16px !important;
+  margin-right: 10px !important;
+  top: 55% !important;
+}
+
+.ant-select-multiple .ant-select-selection-item {
+  font-size: 16px;
+}
+
+.anticon-close-circle {
+  font-size: 20px;
+}
+
+.ant-select-clear {
+  margin-right: 10px;
+}
+
+.ant-select-selection-placeholder {
+  font-size: 16px;
+}
+
+.ant-select-item-option-content {
+  font-size: 16px;
+}

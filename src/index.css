@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+.MuiDataGrid-root {
+  border: 2px solid var(--grid-border) !important;
+  padding: 25px !important;
+  border-radius: 93px !important;
+  color: var(--subheader-color) !important;
+  background-color: var(--background) !important;
+}
+.MuiDataGrid-columnHeaders {
+  color: var(--grid-header) !important;
+}
+.MuiTablePagination-root {
+  color: var(--grid-text) !important;
+}
+.MuiDataGrid-columnSeparator {
+  visibility: hidden !important;
+}
+.MuiDataGrid-rowSeparator {
+  visibility: hidden !important;
+}
+.MuiDataGrid-cell {
+  border: none !important;
+}
+.MuiCheckbox-root {
+  color: var(--grid-text) !important;
+}
+.MuiDataGrid-sortIcon {
+  color: var(--grid-text) !important;
+}
+.MuiDataGrid-menuIcon button {
+  color: var(--grid-text);
+}
+.MuiDataGrid-selectedRowCount {
+  visibility: hidden !important;
+}
+
+.ant-avatar {
+  color: var(--header-text);
+  background: var(--header-bg);
+  height: 83px;
+  width: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+@media only screen and (max-width: 1500px) {
+  .ant-avatar {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
+}
+.MuiDivider-root {
+  height: 50% !important;
+  border-color: #e5e5e5 !important;
+}
+
+.MuiButton-root {
+  color: var(--export-button) !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+.MuiDataGrid-columnHeaderTitle {
+  font-size: 18px !important;
+}
+
+::-moz-scrollbar {
+  display: none !important;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

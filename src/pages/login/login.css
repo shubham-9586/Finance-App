@@ -1,0 +1,154 @@
+.login-MainContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background: var(--background);
+  z-index: 100;
+}
+
+.login-Container {
+  position: relative;
+  width: 516px;
+  background: var(--white);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 27px;
+  z-index: 2;
+}
+
+.login-circle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.login-circle-dark {
+  position: absolute;
+  transform: translate(70%, -40%);
+  z-index: 5;
+}
+
+.login-circle-light {
+  transform: translate(35%, -60%);
+}
+
+.login-Header {
+  position: relative;
+  padding-top: 90px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  z-index: -1;
+}
+
+.login-text-1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: var(--black);
+  font-weight: normal;
+}
+.login-text-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 38px;
+  color: var(--black);
+}
+.login-Google {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-Google1 {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 48px;
+  width: 276px;
+  height: 64px;
+  border: 1px solid #000000;
+  border-radius: 106px;
+  margin-top: 85px;
+  color: #343a40;
+  font-size: 16px;
+}
+.login-Email {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+}
+.login-Email1 {
+  font-weight: 550;
+}
+.Login-email {
+  margin-top: 65px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Login-password {
+  margin-top: 26px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-divider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #adb5bd;
+}
+.login-forget {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+  font-weight: normal;
+  font-size: 15px;
+  color: #343a40;
+}
+.Login-button {
+  margin-top: 46px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
